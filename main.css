@@ -17,6 +17,7 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Barriecito', cursive;
+	margin-left: 25px;
 }
 
 h1 {
@@ -32,11 +33,13 @@ h3 {
 }
 
 p {
-
+margin-left: 10px;
 }
 
 .album-art {
-
+float: left;
+margin-right: 20px;
+margin-left: 20px;
 }
 
 .clear {
@@ -44,7 +47,9 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
-	
+	float: left;
+margin-right: 20px;
+margin-left: 20px;
 }
 
 .record-label {
@@ -56,7 +61,10 @@ color: red;
 }
 
 #about-photo {
-
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
 
 #copyright {
@@ -64,11 +72,13 @@ color: red;
 }
 
 #section-about, #section-discography, #section-equipment {
-
+border: red double 5px;
+margin-top: 15px;
 }
 
 #text-intro {
 	border: double white 5px;
 	padding: 10px;
 	background-color: red;
+	
 }
