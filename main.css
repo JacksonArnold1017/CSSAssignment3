@@ -11,7 +11,7 @@ body {
 	color: white;
 	font-size: 16px;
 	font-family: 'Do Hyeon', sans-serif;
-	margin-left: 30px;
+	margin-left: 2em;
 	
 }
 
@@ -39,11 +39,12 @@ margin-left: 10px;
 
 .album-art {
 float: left;
-margin-right: 20px;
-margin-left: 20px;
+margin-right: 3em;
+margin-left: 1em;
 border: red solid 2px;
-padding: 10px;
-margin-bottom: 5px;
+padding: 1em;
+margin-bottom: 1em;
+
 
 }
 
@@ -53,24 +54,26 @@ margin-bottom: 5px;
 
 .image-electronics, .image-stage-effects {
 	float: left;
-margin-right: 20px;
-margin-left: 20px;
+margin-right: 1em;
+margin-left: 1em;
 
 }
 
 .record-label {
 color: red;
+font-style: italic;
 }
 
 .track-list {
-
+padding-left: 1em;
 }
 
 #about-photo {
 	float: left;
 	margin: 1em ;
-	border: red solid 2px;
-	padding: 10px;
+	border: red solid 1px;
+	padding: 1em;
+	
 }
 
 #copyright {
@@ -78,9 +81,11 @@ color: red;
 }
 
 #section-about, #section-discography, #section-equipment {
-border: red solid 5px;
+border: red solid 1px;
 padding: 1em;
 margin: 2em;
+margin-top: 1em;
+
 
 }
 
@@ -94,7 +99,6 @@ margin: 2em;
 	
 }
 /* Spacing is different from intro to discography
-images need padding and margin(too close to list)
 resize images (smaller)
 need to italicize label names
 need borders on equipment images
