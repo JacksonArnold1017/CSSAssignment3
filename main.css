@@ -44,6 +44,7 @@ margin-left: 1em;
 border: red solid 2px;
 padding: 1em;
 margin-bottom: 1em;
+width: 6em;
 
 
 }
@@ -56,7 +57,9 @@ margin-bottom: 1em;
 	float: left;
 margin-right: 1em;
 margin-left: 1em;
-
+border: red solid 1px;
+padding: 1em;
+width: 15em;
 }
 
 .record-label {
@@ -85,6 +88,7 @@ border: red solid 1px;
 padding: 1em;
 margin: 2em;
 margin-top: 1em;
+margin-bottom: 1em;
 
 
 }
@@ -99,11 +103,5 @@ margin-top: 1em;
 	
 }
 /* Spacing is different from intro to discography
-resize images (smaller)
-need to italicize label names
-need borders on equipment images
-change size on borders (smaller)
-
-
 
 */
